@@ -13,6 +13,22 @@
 .dark-2{
     color: #474747;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+main{
+    
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
 /* header  */
 .header{
     background-image: url('../images/developer.png'),url("../images/header_bg.png");
@@ -84,4 +100,16 @@ nav ul li a{
     background: transparent;
     border: 1px solid #FD6E0A;
     margin-left: 20px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    
+    padding: 130px 160px;
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: center;
 }
