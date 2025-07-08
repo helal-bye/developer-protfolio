@@ -16,6 +16,9 @@
 .secondary-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 main{
     
 }
@@ -112,4 +115,32 @@ main{
     border-radius: 10px;
     margin-top: 130px;
     text-align: center;
+    margin-bottom: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-item{
+    margin-top: 130px;
+}
+/* Skill section */
+.skill-content-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 180px;
+}
+.skill-content{
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.skill-content .skill-title{
+    padding-top: 38px;
+}
+.skill-description{
+    padding-top: 20px;
+    color: #757575;
 }
