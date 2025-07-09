@@ -144,3 +144,67 @@ main{
     padding-top: 20px;
     color: #757575;
 }
+/* resume */
+.resume{
+    margin: 100px;
+}
+.resume-content-container{
+    display: flex;
+    gap: 25px;
+    margin: 100px 0px;
+}
+.resume-content-title{
+    color: #474747;
+     font-size: 30px;
+     font-weight: 700;
+    
+}
+.resume-item-content{
+    margin-top: 50px 0px;
+}
+.resume-content{
+     margin-top: 30px;
+     padding-bottom: 30px;
+}
+.resume-school-title{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-school-sub-title{
+    padding: 20px 0px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-school-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer section */
+footer{
+    padding: 130px 230px;
+}
+.footer{
+    display: flex;
+    
+    align-items: center;
+    gap: 120px;
+}
+.footer-column{
+    flex-basis: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    padding: 20px 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 25px;
+}
